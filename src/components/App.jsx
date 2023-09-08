@@ -13,7 +13,7 @@ const initialContacts = [
 export const App = () => {
   
   const [contacts, setContacts] = useState(initialContacts);
-  const [filter, setFilter] = useState('');
+  // const [filter, setFilter] = useState('');
 
   useEffect(() => {
     const savedContacts = localStorage.getItem('changed-contacts');
